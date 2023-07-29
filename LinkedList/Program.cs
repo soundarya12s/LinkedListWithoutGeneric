@@ -19,8 +19,11 @@ namespace LinkedListProblem
             //Console.WriteLine("Insert:");
             //list.InsertParticularPosition(2, 40);
             //list.Display();
-            Console.WriteLine("Remove first Node:");
-            list.RemoveFirstNode();
+            //Console.WriteLine("Remove first Node:");
+            //list.RemoveFirstNode();
+            //list.Display();
+            Console.WriteLine("Remove last Node:");
+            list.RemoveLastNode();
             list.Display();
         }
     }
