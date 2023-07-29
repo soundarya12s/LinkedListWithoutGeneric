@@ -16,8 +16,11 @@ namespace LinkedListProblem
             //list.AddInReverseOrder(30);
             //list.AddInReverseOrder(70);
             //list.Display();
-            Console.WriteLine("Insert:");
-            list.InsertParticularPosition(2, 40);
+            //Console.WriteLine("Insert:");
+            //list.InsertParticularPosition(2, 40);
+            //list.Display();
+            Console.WriteLine("Remove first Node:");
+            list.RemoveFirstNode();
             list.Display();
         }
     }

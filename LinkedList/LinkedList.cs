@@ -81,5 +81,13 @@ namespace LinkedListProblem
             prev.next = newestNode;
             return this.head;
         }
+        internal void RemoveFirstNode()
+        {
+            if (this.head == null)
+            {
+                Console.WriteLine("nothing found");
+            }
+            this.head = this.head.next;
+        }
     }
 }
