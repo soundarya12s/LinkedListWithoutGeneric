@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LinkedList;
+using System;
 
 namespace LinkedListProblem
 {
@@ -31,16 +32,24 @@ namespace LinkedListProblem
             //Console.WriteLine("Delete Node");
             //list.DeleteNodeAtParticularPosition(2);
 
-            LinkedListStack stack = new LinkedListStack();
-            stack.Push(56);
-            stack.Push(30);
-            stack.Push(70);
+            //LinkedListStack stack = new LinkedListStack();
+            //stack.Push(56);
+            //stack.Push(30);
+            //stack.Push(70);
+            ////stack.Display();
+            //Console.WriteLine("Peek");
+            //stack.Peek();
+            //Console.WriteLine("Pop");
+            //stack.Pop();
             //stack.Display();
-            Console.WriteLine("Peek");
-            stack.Peek();
-            Console.WriteLine("Pop");
-            stack.Pop();
-            stack.Display();
+
+            LinkedListQueue queue = new LinkedListQueue();
+            queue.Enqueue(1);
+            queue.Enqueue(2);
+            queue.Enqueue(3);
+            queue.Display();
+            queue.Dequeue();
+            queue.Display();
         }
     }
 }
