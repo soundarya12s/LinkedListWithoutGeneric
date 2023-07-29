@@ -8,9 +8,14 @@ namespace LinkedListProblem
         {
             Console.WriteLine("Welcome to Linked List operations");
             LinkedList list = new LinkedList();
-            list.Add(56);
-            list.Add(30);
-            list.Add(70);
+            //list.Add(56);
+            //list.Add(30);
+            //list.Add(70);
+            Console.WriteLine("Add in Reverse Order:");
+            list.AddInReverseOrder(56);
+            list.AddInReverseOrder(30);
+            list.AddInReverseOrder(70);
+            list.Display();
         }
     }
 }
