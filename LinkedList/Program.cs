@@ -7,10 +7,10 @@ namespace LinkedListProblem
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Linked List operations");
-            LinkedList list = new LinkedList();
-            list.Add(56);
-            list.Add(30);
-            list.Add(70);
+            //LinkedList list = new LinkedList();
+            //list.Add(56);
+            //list.Add(30);
+            //list.Add(70);
             //Console.WriteLine("Add in Reverse Order:");
             //list.AddInReverseOrder(56);
             //list.AddInReverseOrder(30);
@@ -28,8 +28,14 @@ namespace LinkedListProblem
             //Console.WriteLine("Search");
             //int a = list.Search(30);
             //Console.WriteLine(a);
-            Console.WriteLine("Delete Node");
-            list.DeleteNodeAtParticularPosition(2);
+            //Console.WriteLine("Delete Node");
+            //list.DeleteNodeAtParticularPosition(2);
+
+            LinkedListStack stack = new LinkedListStack();
+            stack.Push(56);
+            stack.Push(30);
+            stack.Push(70);
+            stack.Display();
         }
     }
 }
