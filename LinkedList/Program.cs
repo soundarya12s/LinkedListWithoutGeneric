@@ -35,6 +35,11 @@ namespace LinkedListProblem
             stack.Push(56);
             stack.Push(30);
             stack.Push(70);
+            //stack.Display();
+            Console.WriteLine("Peek");
+            stack.Peek();
+            Console.WriteLine("Pop");
+            stack.Pop();
             stack.Display();
         }
     }
