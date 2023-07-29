@@ -22,9 +22,12 @@ namespace LinkedListProblem
             //Console.WriteLine("Remove first Node:");
             //list.RemoveFirstNode();
             //list.Display();
-            Console.WriteLine("Remove last Node:");
-            list.RemoveLastNode();
-            list.Display();
+            //Console.WriteLine("Remove last Node:");
+            //list.RemoveLastNode();
+            //list.Display();
+            Console.WriteLine("Search");
+            int a = list.Search(30);
+            Console.WriteLine(a);
         }
     }
 }
